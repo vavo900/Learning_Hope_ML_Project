@@ -1,21 +1,23 @@
 # Learning_Hope_ML_Project
 
-Learning Hope
+
+
+# Learning Hope
 Funding the Future, One Project at a Time
 
-DonorsChoose.org
+# DonorsChoose.org
 DonorsChoose stands at the forefront of transforming educational landscapes by providing a unique crowdfunding platform that bridges the gap between passionate teachers and generous donors. Founded in 2000 by Charles Best, a former Bronx public school teacher, the organization has become a beacon of hope for educators seeking to enhance the learning experiences of their students.
 
 The platform operates on a simple yet powerful premise: teachers create project proposals outlining the resources they need, ranging from essential classroom supplies to innovative educational tools. These proposals are then featured on the DonorsChoose website, where potential donors—ranging from individuals and corporations to philanthropic organizations—can pursue projects aligned with their interests and values.
 
 
 
-Business Problem
+# Business Problem
 DonorsChoose faces the challenge of efficiently predicting the approval status of project proposals submitted by teachers. The current manual review process is time-consuming and may not harness the full potential of available data. To address this, the business problem is to implement a machine learning solution that can accurately predict whether a project will be approved or not based on various project-related features.
 
 
 
-Key Business Objectives
+# Key Business Objectives
 Automate Approval Prediction: Use technology to predict whether a given project proposal is likely to be approved.
 
 
@@ -34,14 +36,14 @@ Optimize Resource Allocation: Direct resources more effectively by focusing atte
 
 
 
-Machine Learning Problem
+# Machine Learning Problem
 
 
 The primary objective of this machine learning project is to develop a predictive model that can accurately forecast the approval status of project proposals submitted on the DonorsChoose platform. Leveraging historical data and key project features, the challenge is to implement a classification algorithm that distinguishes between projects likely to be approved and those likely to be rejected.
 
 
 
-Technical Objectives
+# Technical Objectives
 Data Collection and Exploration: Gather and explore the dataset containing historical information on DonorsChoose project proposals, encompassing features such as project descriptions, resource needs, teacher information, and past approval outcomes.
 Feature Engineering: Identify and create relevant features that significantly influence the project approval decision. This may involve extracting insights from project descriptions, analyzing historical approval patterns, and incorporating metadata related to teachers and schools.
 Model Selection: Evaluate and select appropriate machine learning classification algorithms for predicting project approval status. Consideration should be given to factors such as interpretability, accuracy, and the ability to handle imbalanced datasets.
@@ -50,12 +52,12 @@ Hyperparameter Tuning: Optimize the model's hyperparameters to achieve the best 
 Evaluation Metrics: Assess the model's performance using relevant metrics such as precision, recall, and F1-score, considering the specific business context of project approval prediction.
 
 
-About the Dataset
+# About the Dataset
 The dataset provided for this machine learning project encompasses a comprehensive collection of historical information related to project proposals on the DonorsChoose platform. Each entry in the dataset represents a unique project proposal submitted by educators seeking support for their initiatives. The dataset includes a variety of features that capture crucial aspects of these proposals, teacher details, and contextual information.
 
 
 
-Download link
+# Download link
 The dataset can be downloaded from here
 
 You can download the dataset in your environment using the following code.
@@ -75,14 +77,14 @@ with zipfile.ZipFile(zip_file_path ,"r") as zip_ref:
     zip_ref.extractall(dataset_path)
 
 
-Dataset Size and Format
+# Dataset Size and Format
 The size of the dataset is about 100k, with each record containing information about a specific project proposal. The data is organized in a structured format, allowing for efficient analysis and model training.
 
 Since the size of the dataset is too large, you may choose to work with a subset of the data in case the training takes too long or you run into memory issues.
 
 
 
-Deliverables/Evaluation Parameters
+# Deliverables/Evaluation Parameters
 You need to prepare a Jupyter Notebook consisting of the following:
 
 
